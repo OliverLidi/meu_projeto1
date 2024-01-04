@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
- <div>
-<h1>Faça aqui seu cadastro!</h1>
-    
+    <div>
+        <h1>Faça aqui seu cadastro!</h1>
+        <form action="processar_cadastro.php" method="post">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" /> <br>
     
@@ -24,11 +24,9 @@
             <label for="senhaRepetida">Repita a mesma senha:</label>
             <input type="password" id="senhaRepetida" name="senhaRepetida" minlength="8" required /><br>
             
-            <button type="submit">Entrar</button><br>
-            <button>Novo por aqui? Clique aqui e faça seu cadastro</button>
-        </div>
-    </body>
-    </html>   
-    
+            <button type="submit">Cadastrar</button><br>
+        </form>
+        <button>Novo por aqui? Clique aqui e faça seu cadastro</button>
+    </div>
 </body>
 </html>
