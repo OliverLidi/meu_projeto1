@@ -1,13 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 body {
-    background-color:grey;
-}
-#cadastro{
-   background-color: rgb(212, 18, 18); 
-   width: 80%;
-   display: ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
 }
 
-{
+#cadastro {
+    width: 100%;
+    height: 100vh; 
     background-image: url("https://img.freepik.com/fotos-gratis/telefone-antigo-na-cor-vermelha-isolado-na-superficie-branca_463209-54.jpg?t=st=1706203040~exp=1706203640~hmac=bba174f54d293984244ae4aa11d6104841d267bce4903f5fe904f69aabe9b592");
-    background-color: #cccccc;
-  }
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+
+<div id="cadastro">
+    <button class="botao">Botão 1</button>
+    <button class="botao">Botão 2</button>
+    <button class="botao">Botão 3</button>
+    <!-- Adicione quantos botões desejar -->
+</div>
+
+</body>
+</html>
