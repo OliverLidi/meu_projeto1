@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body {
+ body{
     margin: 0;
     padding: 0;
     overflow: hidden; 
@@ -28,17 +24,3 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
-
-</style>
-</head>
-<body>
-
-<div id="cadastro">
-    <button class="botao">Botão 1</button>
-    <button class="botao">Botão 2</button>
-    <button class="botao">Botão 3</button>
-   
-</div>
-
-</body>
-</html>
