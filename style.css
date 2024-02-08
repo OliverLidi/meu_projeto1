@@ -11,93 +11,39 @@ body {
     background-attachment: fixed;
 }
 
-.cadastro {
+.overlay-container {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: rgba(242, 242, 242, 0.8);
-}
-
-.login-form {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-}
-
-.input-group {
-    margin-bottom: 15px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.login-button,
-.cadastro-button {
-    background-color: #e91313;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.login-button:hover,
-.cadastro-button:hover {
-    background-color: #d33f1e;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.cadastro,
-.pass,
-.botao {
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
     text-align: center;
-}
-
-.container-agendamento {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #433a3a;
     padding: 40px;
     border-radius: 10px;
     width: 200%;
 }
 
 h1 {
-    color: #000000;
+    color: #fef6f6;
 }
 
 form {
     margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
 input[type="submit"] {
