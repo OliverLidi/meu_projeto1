@@ -1,55 +1,59 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     background-image: url("https://img.freepik.com/fotos-gratis/telefone-antigo-na-cor-vermelha-isolado-na-superficie-branca_463209-54.jpg?t=st=1706203040~exp=1706203640~hmac=bba174f54d293984244ae4aa11d6104841d267bce4903f5fe904f69aabe9b592");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-  }
-  
-  .cadastro {
+}
+
+.cadastro {
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .login-container {
+}
+
+.login-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: rgba(242, 242, 242, 0.8);
-  }
-  
-  .login-form {
+}
+
+.login-form {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
-  }
-  
-  .input-group {
+}
+
+.input-group {
     margin-bottom: 15px;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     margin-bottom: 5px;
-  }
-  
-  input {
+}
+
+input {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
-  
-  .login-button,
-  .cadastro-button {
+}
+
+.login-button,
+.cadastro-button {
     background-color: #e91313;
     color: white;
     border: none;
@@ -58,24 +62,53 @@ body {
     cursor: pointer;
     width: 100%;
     margin-bottom: 10px;
-  }
-  
-  .login-button:hover,
-  .cadastro-button:hover {
+}
+
+.login-button:hover,
+.cadastro-button:hover {
     background-color: #d33f1e;
-  }
-  
-  .container {
+}
+
+.container {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-  }
-  
-  .cadastro,
-  .pass,
-  .botao {
+}
+
+.cadastro,
+.pass,
+.botao {
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: center;
-  }
+}
+
+.container-agendamento {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    width: 200%;
+}
+
+h1 {
+    color: #000000;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    background-color: #e91313;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #d33f1e;
+}
