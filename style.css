@@ -32,7 +32,7 @@ body {
 }
 
 h1 {
-    color: #fef6f6;
+    color: #b7afaf;
 }
 
 form {
@@ -47,8 +47,8 @@ input {
 }
 
 input[type="submit"] {
-    background-color: #e91313;
-    color: white;
+    background-color: #2b2525;
+    color: rgb(47, 41, 41);
     border: none;
     padding: 10px;
     border-radius: 5px;
@@ -56,5 +56,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #d33f1e;
+    background-color: #252221;
 }
