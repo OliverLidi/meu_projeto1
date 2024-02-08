@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-
-<body>
-  <div class="login-container">
-    <div class="login-form">
-
-      <h1>Se você já possui cadastro conosco, faça aqui seu login!</h1>
-
-      <div class="input-group">
-        <label for="username">CPF/CNPJ:</label>
-        <input type="text" id="username" name="username" required>
-      </div>
-
-      <div class="input-group">
-        <label for="pass">Senha (Mínimo 8 caracteres):</label>
-        <input type="password" id="pass" name="password" minlength="8" required>
-      </div>
-
-      <button class="login-button">Entrar</button>
-
-      <button class="cadastro-button">Novo por aqui? Clique aqui e faça seu cadastro</button>
+<body class="overlay-container">
+    <div class="container">
+        <h1>Faça aqui seu cadastro!</h1>
+        <form action="processar_cadastro.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" /><br>
+    
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" /><br>
+    
+            <label for="cpfCnpj">Cpf/cnpj:</label>
+            <input type="text" id="cpfCnpj" name="cpfCnpj" /><br>
+    
+            <label for="senha">Senha (Mínimo 8 caracteres):</label>
+            <input type="password" id="senha" name="senha" minlength="8" required />
+    
+            <label for="senhaRepetida">Repita a mesma senha:</label>
+            <input type="password" id="senhaRepetida" name="senhaRepetida" minlength="8" required /><br>
+            
+            <button class="botao" type="submit">Cadastrar</button><br>
+        </form>
+        <button class="botao">Novo por aqui? Clique aqui e faça seu cadastro</button>
     </div>
-
 </body>
-
 </html>
