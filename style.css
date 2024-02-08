@@ -1,46 +1,26 @@
+ body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
 
-    body {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
+.cadastro {
+    width: 100%;
+    height: 100vh; 
+    background-image: url("https://img.freepik.com/fotos-gratis/telefone-antigo-na-cor-vermelha-isolado-na-superficie-branca_463209-54.jpg?t=st=1706203040~exp=1706203640~hmac=bba174f54d293984244ae4aa11d6104841d267bce4903f5fe904f69aabe9b592");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    .cadastro {
-      width: 100%;
-      height: 100vh;
-      background-image: url("https://img.freepik.com/fotos-gratis/telefone-antigo-na-cor-vermelha-isolado-na-superficie-branca_463209-54.jpg?t=st=1706203040~exp=1706203640~hmac=bba174f54d293984244ae4aa11d6104841d267bce4903f5fe904f69aabe9b592");
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .botoes-container {
-      position: static;
-      display: flex;
-      margin-bottom: 20px; /* Ajuste conforme necessário */
-    }
-
-    .botao {
-      background-color: grey;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      margin-right: 10px;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="cadastro">
-    <div class="botoes-container">
-      <button class="botao">Botão 1</button>
-      <button class="botao">Botão 2</button>
-      <!-- Adicione mais botões conforme necessário -->
-    </div>
-    <!-- Outros elementos da página aqui -->
-  </div>
-
+.botao {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
