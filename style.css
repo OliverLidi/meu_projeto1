@@ -13,10 +13,10 @@ body {
 
 .overlay-container {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 80%;
-    height: 80%;
+    top: 20;
+    left: 20;
+    width: 100%;
+    height: 100%;
     background-color: rgba(141, 110, 110, 0.5);
     display: flex;
     align-items: center;
@@ -25,10 +25,10 @@ body {
 
 .container {
     text-align: center;
-    background-color: #433a3a;
+    background-color: #d8cdcd85;
     padding: 40px;
     border-radius: 10px;
-    width: 200%;
+    width: 100%;
 }
 
 h1 {
