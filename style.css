@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url("https://img.freepik.com/fotos-gratis/telefone-antigo-na-cor-vermelha-isolado-na-superficie-branca_463209-54.jpg?t=st=1706203040~exp=1706203640~hmac=bba174f54d293984244ae4aa11d6104841d267bce4903f5fe904f69aabe9b592");
+    background-image: ur(l"https://img.freepik.com/fotos-gratis/telefone-antigo-na-cor-vermelha-isolado-na-superficie-branca_463209-54.jpg?t=st=1706203040~exp=1706203640~hmac=bba174f54d293984244ae4aa11d6104841d267bce4903f5fe904f69aabe9b592"); /* Substitua pelo caminho correto */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -12,7 +12,7 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center; /* Centraliza horizontalmente */
   }
   
   .login-container {
@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f2f2f2;
+    background-color: rgba(242, 242, 242, 0.8); /* Cor de fundo com transparência */
   }
   
   .login-form {
@@ -79,6 +79,4 @@ body {
     border-radius: 5px;
     text-align: center;
   }
-  
-  
   
