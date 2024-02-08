@@ -6,15 +6,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
-</head>
-<body>
-    <div>
-        <h1>Agende seu suporte!</h1><br>
-        <p>Em qual sistema você precisa de ajuda?</p>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
 
-        <button type="button">Pessoal</button>
-        <button type="button">Fiscal</button>
-        <button type="button">Contábil</button>
-    </div>
+    div {
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #e91313;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    button:hover {
+      background-color: #d33f1e;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>Agende seu suporte!</h1>
+    <p>Em qual sistema você precisa de ajuda?</p>
+
+    <button type="button">Pessoal</button>
+    <button type="button">Fiscal</button>
+    <button type="button">Contábil</button>
+  </div>
 </body>
+
 </html>
