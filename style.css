@@ -16,8 +16,8 @@
 }
 
 .botao {
-    background-color: grey;
-    color: white;
+    background-color: rgb(172, 125, 125);
+    color: rgb(192, 54, 54);
     border: none;
     padding: 10px 20px;
     margin-right: 10px;
