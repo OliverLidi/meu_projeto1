@@ -7,25 +7,20 @@
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
-
+</head>
 <body>
-  <div class="cadastro">
-    <div class="login-container">
-      <div class="login-form">
-        <h1>Se você já possui cadastro conosco, faça aqui seu login!</h1>
-        <div class="input-group">
-          <label for="username">CPF/CNPJ:</label>
-          <input type="text" id="username" name="username" required>
-        </div>
-
-        <div class="input-group">
-          <label for="pass">Senha (Mínimo 8 caracteres):</label>
-          <input type="password" id="pass" name="password" minlength="8" required>
-        </div>
-
-        <button class="login-button">Entrar</button>
-        <button class="cadastro-button">Novo por aqui? Clique aqui e faça seu cadastro</button>
+      <div class="container">
+        <h1>Agendamento</h1>
+        <form action="#">
+          <label for="date">Data:</label>
+          <input type="date" id="date" name="date" required>
+          
+          <label for="time">Horário:</label>
+          <input type="time" id="time" name="time" min="08:00" max="17:00" required>
+          
+          <input type="submit" value="Agendar">
+        </form>
       </div>
+   
 </body>
-
 </html>
