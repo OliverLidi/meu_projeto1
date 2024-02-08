@@ -12,7 +12,7 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza horizontalmente */
+    justify-content: center;
   }
   
   .login-container {
@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgba(242, 242, 242, 0.8); /* Cor de fundo com transparência */
+    background-color: rgba(242, 242, 242, 0.8);
   }
   
   .login-form {
@@ -79,4 +79,3 @@ body {
     border-radius: 5px;
     text-align: center;
   }
-  
