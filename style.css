@@ -19,7 +19,7 @@
     .botoes-container {
       position: static;
       display: flex;
-      margin-bottom: 20px; /* Ajuste conforme necessário */
+      margin-bottom: 50px; /* Ajuste conforme necessário */
     }
 
     .botao {
