@@ -16,11 +16,11 @@
 }
 
 .botao {
-    background-color: rgb(172, 125, 125);
-    color: rgb(192, 54, 54);
+    background-color: rgb(43, 42, 42);
+    color: rgb(240, 229, 229);
     border: none;
     padding: 20px 40px;
-    margin-right: 10px;
+    margin-right: 0px;
     border-radius: 5px;
     cursor: pointer;
 }
