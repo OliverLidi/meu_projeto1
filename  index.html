@@ -9,29 +9,29 @@
 </head>
 
 <body>
-<div class="cadastro"> 
-  <div>
-    <h1>Se você já possui cadastro conosco, faça aqui seu login!</h1>
-    <label for="username">Cpf/cnpj:</label>
-    <input type="text" id="username" name="username">
+  <div class="login-container">
+    <div class="login-form">
+      <h1>Se você já possui cadastro conosco, faça aqui seu login!</h1>
+      <div class="input-group">
+        <label for="username">CPF/CNPJ:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+
+      <div class="input-group">
+        <label for="pass">Senha (Mínimo 8 caracteres):</label>
+        <input type="password" id="pass" name="password" minlength="8" required>
+      </div>
+
+      <button class="login-button">Entrar</button>
+
+      <button class="cadastro-button">Novo por aqui? Clique aqui e faça seu cadastro</button>
+    </div>
   </div>
 
-  <div>
-    <label for="pass">Senha (Mínimo 8 caracteres):</label>
-    <input type="password" id="pass" name="password" minlength="8" required>
-  </div>
-
-  <button class="botao">entrar</button>
-
-  <button class="botao">Novo por aqui? Clique aqui e faça seu cadastro</button><br>
-</div>
-
-<main class= " container">
-
-  <div class="cadastro">1</div>
-  <div class="pass">2</div>
-  <div class="botao">3</div>
-  
+  <main class="container">
+    <div class="cadastro">1</div>
+    <div class="pass">2</div>
+    <div class="botao">3</div>
   </main>
 </body>
 
